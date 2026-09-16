@@ -1,0 +1,10 @@
+package com.srilakshmigoldbuyers.repository;
+
+
+import com.srilakshmigoldbuyers.model.GoldRate;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface GoldRateRepository extends JpaRepository<GoldRate, Long> {
+}
